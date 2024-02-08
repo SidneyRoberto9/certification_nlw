@@ -15,6 +15,5 @@ public class Top10RankingUseCase {
 
     public List<CertificationStudentEntity> execute() {
         return this.certificationStudentRepository.findTop10ByOrderByGradeDesc();
-
     }
 }
