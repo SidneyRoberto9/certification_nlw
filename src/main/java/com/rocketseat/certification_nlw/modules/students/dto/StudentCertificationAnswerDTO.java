@@ -5,11 +5,14 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class VerifyHasCertificationDTO {
+public class StudentCertificationAnswerDTO {
     private String email;
     private String technology;
+    private List<QuestionAnswerDTO> questionsAnswers;
 }

@@ -9,9 +9,9 @@ import java.util.List;
 import java.util.UUID;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 public class QuestionResultDTO {
     private UUID id;
     private String technology;

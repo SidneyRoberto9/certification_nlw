@@ -37,8 +37,7 @@ public class QuestionController {
 
         return questionResultDTO;
     }
-
-
+    
     static AlternativesResultDTO mapAlternativeToDTO(AlternativeEntity alternative) {
         return AlternativesResultDTO.builder()
                 .id(alternative.getId())

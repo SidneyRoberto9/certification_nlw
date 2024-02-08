@@ -8,9 +8,9 @@ import lombok.NoArgsConstructor;
 import java.util.UUID;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 public class AlternativesResultDTO {
     private UUID id;
     private String description;
